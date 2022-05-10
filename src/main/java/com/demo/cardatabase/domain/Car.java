@@ -74,4 +74,11 @@ public class Car {
     public void setPrice(int price) {
         this.price = price;
     }
+
+    @Override
+    public String toString() {
+      return "Car{" + "id=" + this.id + ", brand='" + this.brand + '\'' + ", model='" + this.model + '\'' + 
+                ", color='" + this.color + '\'' + ", registerNumber='" + this.registerNumber + '\'' + 
+                ", year=" + this.year + ", price=" + this.price + '}';
+    }
 }
